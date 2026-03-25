@@ -2308,6 +2308,13 @@ button { cursor: pointer; font-family: inherit; }
   .hero__body { padding: 36px 16px 44px; }
   .hero__badges { gap: 20px; }
   .hero__callback { display: none; }
+  .hero__contacts { gap: 2px; }
+  .hero__phone { font-size: 0.85rem; letter-spacing: -0.3px; }
+  .hero__hours { font-size: 0.6rem; margin-top: -4px; }
+  .hero__logo img { width: 36px; height: 36px; }
+  .hero__logo-text span { font-size: 0.8rem; }
+  .hero__logo-text small { font-size: 0.6rem; }
+  .hero__bar-inner { padding: 0 12px; gap: 8px; }
   .hero__cta {
     white-space: normal;
     width: 100%;
