@@ -325,6 +325,8 @@ button { cursor: pointer; font-family: inherit; }
   transition: all 0.3s;
   cursor: pointer;
   white-space: nowrap;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .hero__cta:hover {
@@ -2306,6 +2308,13 @@ button { cursor: pointer; font-family: inherit; }
   .hero__body { padding: 36px 16px 44px; }
   .hero__badges { gap: 20px; }
   .hero__callback { display: none; }
+  .hero__cta {
+    white-space: normal;
+    width: 100%;
+    padding: 18px 20px;
+    font-size: 1rem;
+    text-align: center;
+  }
   .brands__grid { grid-template-columns: 1fr 1fr; gap: 14px; }
   .complex__grid { grid-template-columns: 1fr; }
   .works__panel-grid { grid-template-columns: 1fr 1fr; }
